@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+h1 {
+  text-align: center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +40,56 @@
     transform: rotate(360deg);
   }
 }
+
+/*Navbar*/
+
+.logo {
+  font-size: 24px; /* Adjust font size for logo */
+  font-weight: bold; /* Make the logo bold */
+  color: #007bff; /* Change the logo color */
+}
+
+.navbar-nav .nav-link {
+  color: #007bff !important; /* Change color of navigation links */
+  font-size: 18px; /* Adjust font size for links */
+
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0056b3; /* Change color on hover */
+}
+
+.navbar {
+  padding: 10px 20px; /* Add some padding to the navbar */
+}
+
+
+
+/*Table*/
+
+.table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin-top: 20px !important;
+}
+
+.table th {
+  background-color: blue !important; /* Header background color */
+  color: white !important; /* Header text color */
+  padding: 10px !important; /* Padding for header cells */
+  text-align: center; /* Align text to the left */
+  font-size: 0.8rem !important;
+}
+
+.table td {
+  padding: 10px !important; /* Padding for data cells */
+  border: 1px solid #ccc !important; /* Border for data cells */
+  text-align: center !important;
+  text-justify: center !important;
+  justify-content: center !important;
+  justify-items: center !important;
+  width: 20%;
+  font-size: 0.8rem;
+
+}
+
